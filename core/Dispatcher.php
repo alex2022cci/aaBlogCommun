@@ -5,7 +5,7 @@
 **/
 class Dispatcher{
 	
-	var $request;	// Object Reques
+	var $request;	// Object Request
 
 	/**
 	* Fonction principale du dispatcher
