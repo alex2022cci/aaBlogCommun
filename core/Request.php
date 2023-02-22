@@ -1,12 +1,10 @@
 <?php
-class Request{
-	
-
+class Request
+{
 	public $url; 	// URL appellé par l'utilisateur
 
-	function __construct(){
+	function __construct()
+	{
 		$this->url = $_SERVER['PATH_INFO']; 
 	}
-
-
 }
